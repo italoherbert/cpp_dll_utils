@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1753882384 source:c:\users\italo\workspace-cpp\utils\src\util\numutil.cpp
+	"numutil.h"
+	<ctime>
+	<cstdlib>
+
+1753655598 c:\users\italo\workspace-cpp\utils\src\util\numutil.h
+
+1753882405 source:c:\users\italo\workspace-cpp\utils\src\util\readutil.cpp
+	"readutil.h"
+	<iostream>
+	<limits>
+	<ctime>
+	<cstdlib>
+
+1753655610 c:\users\italo\workspace-cpp\utils\src\util\readutil.h
+	<iostream>
+
+1753882413 source:c:\users\italo\workspace-cpp\utils\src\util\strutil.cpp
+	"strutil.h"
+	<iostream>
+
+1753882471 c:\users\italo\workspace-cpp\utils\src\util\strutil.h
+	<iostream>
+

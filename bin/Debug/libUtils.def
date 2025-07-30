@@ -1,0 +1,7 @@
+EXPORTS
+    _Z10readDoubleNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES4_ @1
+    _Z10startsWithNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES4_ @2
+    _Z13sorteiaNumerov @3
+    _Z7readIntNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES4_ @4
+    _Z7toLowerNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE @5
+    _Z8readLineNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE @6
