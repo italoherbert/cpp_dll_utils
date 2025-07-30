@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1753882384 source:c:\users\italo\workspace-cpp\utils\src\util\numutil.cpp
+1753882538 source:c:\users\italo\workspace-cpp\utils\src\util\numutil.cpp
 	"numutil.h"
 	<ctime>
 	<cstdlib>
 
 1753655598 c:\users\italo\workspace-cpp\utils\src\util\numutil.h
 
-1753882405 source:c:\users\italo\workspace-cpp\utils\src\util\readutil.cpp
+1753882535 source:c:\users\italo\workspace-cpp\utils\src\util\readutil.cpp
 	"readutil.h"
 	<iostream>
 	<limits>
@@ -16,10 +16,32 @@
 1753655610 c:\users\italo\workspace-cpp\utils\src\util\readutil.h
 	<iostream>
 
-1753882413 source:c:\users\italo\workspace-cpp\utils\src\util\strutil.cpp
+1753882531 source:c:\users\italo\workspace-cpp\utils\src\util\strutil.cpp
 	"strutil.h"
 	<iostream>
 
 1753882471 c:\users\italo\workspace-cpp\utils\src\util\strutil.h
 	<iostream>
+
+1753894538 source:c:\users\italo\workspace-cpp\utils\src\util\comp\maiorcomparador.cpp
+	"MaiorComparador.h"
+
+1753893863 c:\users\italo\workspace-cpp\utils\src\util\comp\maiorcomparador.h
+	"Comparador.h"
+
+1753893552 c:\users\italo\workspace-cpp\utils\src\util\comp\comparador.h
+
+1753896314 source:c:\users\italo\workspace-cpp\utils\src\util\arrayutil.cpp
+	"arrayutil.h"
+	"comp/Comparador.h"
+	"comp/MenorComparador.h"
+	"comp/MaiorComparador.h"
+
+1753896669 c:\users\italo\workspace-cpp\utils\src\util\arrayutil.h
+
+1753893838 c:\users\italo\workspace-cpp\utils\src\util\comp\menorcomparador.h
+	"Comparador.h"
+
+1753894529 source:c:\users\italo\workspace-cpp\utils\src\util\comp\menorcomparador.cpp
+	"MenorComparador.h"
 

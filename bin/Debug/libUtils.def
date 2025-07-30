@@ -1,7 +1,11 @@
 EXPORTS
-    _Z10readDoubleNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES4_ @1
-    _Z10startsWithNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES4_ @2
-    _Z13sorteiaNumerov @3
-    _Z7readIntNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES4_ @4
-    _Z7toLowerNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE @5
-    _Z8readLineNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE @6
+    _ZN7numutil13sorteiaNumeroEv @1
+    _ZN7strutil10startsWithENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ @2
+    _ZN7strutil7toLowerENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE @3
+    _ZN8readutil10readDoubleENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ @4
+    _ZN8readutil7readIntENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ @5
+    _ZN8readutil8readLineENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE @6
+    _ZN9arrayutil10copiaVetorEPii @7
+    _ZN9arrayutil13selectionSortEPii @8
+    _ZN9arrayutil20inversoSelectionSortEPii @9
+    _ZN9arrayutil22verificaSeArraysIguaisEPiS0_i @10

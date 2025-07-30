@@ -8,36 +8,40 @@
 
 using namespace std;
 
-READUTIL_API string readLine( string msg ) {
-	string nome;
-	cin.ignore();
-	cout << msg;
-	getline( cin, nome );
-	return nome;
-}
+namespace readutil {
 
-READUTIL_API int readInt( string msg, string errorMsg ) {
-	int num;
+    READUTIL_API string readLine( string msg ) {
+        string nome;
+        cin.ignore();
+        cout << msg;
+        getline( cin, nome );
+        return nome;
+    }
 
-	cout << msg;
-	while( !(cin >> num) ) {
-		cout << errorMsg << endl;
-		cin.clear();
-		cin.ignore( numeric_limits<streamsize>::max(), '\n' );
-		cout << msg;
-	}
-	return num;
-}
+    READUTIL_API int readInt( string msg, string errorMsg ) {
+        int num;
 
-READUTIL_API int readDouble( string msg, string errorMsg ) {
-	double num;
+        cout << msg;
+        while( !(cin >> num) ) {
+            cout << errorMsg << endl;
+            cin.clear();
+            cin.ignore( numeric_limits<streamsize>::max(), '\n' );
+            cout << msg;
+        }
+        return num;
+    }
 
-	cout << msg;
-	while( !(cin >> num) ) {
-		cout << errorMsg << endl;
-		cin.clear();
-		cin.ignore( numeric_limits<streamsize>::max(), '\n' );
-		cout << msg;
-	}
-	return num;
+    READUTIL_API int readDouble( string msg, string errorMsg ) {
+        double num;
+
+        cout << msg;
+        while( !(cin >> num) ) {
+            cout << errorMsg << endl;
+            cin.clear();
+            cin.ignore( numeric_limits<streamsize>::max(), '\n' );
+            cout << msg;
+        }
+        return num;
+    }
+
 }

@@ -6,8 +6,12 @@
 
 using namespace std;
 
-NUMUTIL_API int sorteiaNumero() {
-	srand( time( 0 ) );
+namespace numutil {
 
-	return rand() % 100;
+    NUMUTIL_API int sorteiaNumero() {
+        srand( time( 0 ) );
+
+        return rand() % 100;
+    }
+
 }
