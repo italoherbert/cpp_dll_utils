@@ -53,8 +53,14 @@
 		<Unit filename="src/util/readutil.h" />
 		<Unit filename="src/util/strutil.cpp" />
 		<Unit filename="src/util/strutil.h" />
-		<Unit filename="src/util/testesutil.cpp" />
-		<Unit filename="src/util/testesutil.h" />
+		<Unit filename="src/util/testes/Testes.cpp" />
+		<Unit filename="src/util/testes/Testes.h" />
+		<Unit filename="src/util/testes/teste_error.cpp" />
+		<Unit filename="src/util/testes/teste_error.h" />
+		<Unit filename="src/util/testes/testesutil.cpp" />
+		<Unit filename="src/util/testes/testesutil.h" />
+		<Unit filename="src/util/testes/testesutil2.cpp" />
+		<Unit filename="src/util/testes/testesutil2.h" />
 		<Unit filename="src/util/vectutil.cpp" />
 		<Unit filename="src/util/vectutil.h" />
 		<Extensions />

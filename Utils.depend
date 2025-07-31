@@ -68,3 +68,101 @@
 	<vector>
 	<functional>
 
+1753910961 source:c:\users\italo\workspace-cpp\dlls\utils\src\util\arrayutil.cpp
+	"arrayutil.h"
+	"comp/Comparador.h"
+	"comp/MenorComparador.h"
+	"comp/MaiorComparador.h"
+
+1753910903 c:\users\italo\workspace-cpp\dlls\utils\src\util\arrayutil.h
+	"comp/Comparador.h"
+
+1753893552 c:\users\italo\workspace-cpp\dlls\utils\src\util\comp\comparador.h
+
+1753893838 c:\users\italo\workspace-cpp\dlls\utils\src\util\comp\menorcomparador.h
+	"Comparador.h"
+
+1753893863 c:\users\italo\workspace-cpp\dlls\utils\src\util\comp\maiorcomparador.h
+	"Comparador.h"
+
+1753894538 source:c:\users\italo\workspace-cpp\dlls\utils\src\util\comp\maiorcomparador.cpp
+	"MaiorComparador.h"
+
+1753894529 source:c:\users\italo\workspace-cpp\dlls\utils\src\util\comp\menorcomparador.cpp
+	"MenorComparador.h"
+
+1753898140 source:c:\users\italo\workspace-cpp\dlls\utils\src\util\numutil.cpp
+	"numutil.h"
+	<ctime>
+	<cstdlib>
+
+1753898247 c:\users\italo\workspace-cpp\dlls\utils\src\util\numutil.h
+
+1753898165 source:c:\users\italo\workspace-cpp\dlls\utils\src\util\readutil.cpp
+	"readutil.h"
+	<iostream>
+	<limits>
+	<ctime>
+	<cstdlib>
+
+1753898274 c:\users\italo\workspace-cpp\dlls\utils\src\util\readutil.h
+	<iostream>
+
+1753898299 source:c:\users\italo\workspace-cpp\dlls\utils\src\util\strutil.cpp
+	"strutil.h"
+	<iostream>
+
+1753898291 c:\users\italo\workspace-cpp\dlls\utils\src\util\strutil.h
+	<iostream>
+
+1753913839 source:c:\users\italo\workspace-cpp\dlls\utils\src\util\vectutil.cpp
+	"vectutil.h"
+	<algorithm>
+
+1753911139 c:\users\italo\workspace-cpp\dlls\utils\src\util\vectutil.h
+	<iostream>
+	<vector>
+
+1753983509 source:c:\users\italo\workspace-cpp\dlls\utils\src\util\testesutil.cpp
+	"testesutil.h"
+	<sstream>
+
+1753983592 c:\users\italo\workspace-cpp\dlls\utils\src\util\testesutil.h
+	<iostream>
+	<vector>
+	<functional>
+
+1753985402 source:c:\users\italo\workspace-cpp\dlls\utils\src\util\testes\teste_error.cpp
+	"teste_error.h"
+
+1753985502 c:\users\italo\workspace-cpp\dlls\utils\src\util\testes\teste_error.h
+	<stdexcept>
+	<iostream>
+
+1753986021 source:c:\users\italo\workspace-cpp\dlls\utils\src\util\testes\testesutil.cpp
+	"testesutil.h"
+	"teste_error.h"
+	<iostream>
+	<optional>
+	<vector>
+	<sstream>
+
+1753985558 c:\users\italo\workspace-cpp\dlls\utils\src\util\testes\testesutil.h
+	<iostream>
+	<vector>
+
+1753986057 c:\users\italo\workspace-cpp\dlls\utils\src\util\testes\testesutil2.h
+
+1753985666 source:c:\users\italo\workspace-cpp\dlls\utils\src\util\testes\testes.cpp
+	"Testes.h"
+	"teste_error.h"
+
+1753985325 c:\users\italo\workspace-cpp\dlls\utils\src\util\testes\testes.h
+	<iostream>
+	<functional>
+	<vector>
+
+1753985825 source:c:\users\italo\workspace-cpp\dlls\utils\src\util\testes\testesutil2.cpp
+	"testesutil2.h"
+	<sstream>
+
