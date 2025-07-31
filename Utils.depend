@@ -59,9 +59,12 @@
 	<iostream>
 	<vector>
 
-1753911902 source:c:\users\italo\workspace-cpp\utils\src\util\testesutil.cpp
+1753962799 source:c:\users\italo\workspace-cpp\utils\src\util\testesutil.cpp
 	"testesutil.h"
+	<sstream>
 
-1753911834 c:\users\italo\workspace-cpp\utils\src\util\testesutil.h
+1753961247 c:\users\italo\workspace-cpp\utils\src\util\testesutil.h
 	<iostream>
+	<vector>
+	<functional>
 
