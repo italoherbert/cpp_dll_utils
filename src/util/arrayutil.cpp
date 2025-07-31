@@ -6,6 +6,21 @@
 
 namespace arrayutil {
 
+    template <typename T>
+    bool verificaSeArraysIguais2( T*, T*, int );
+
+    template <typename T>
+    T* copiaVetor2( T*, int );
+
+    template <typename T>
+    void selectionSort2( T*, int );
+
+    template <typename T>
+    void inversoSelectionSort2( T*, int );
+
+    template <typename T>
+    void selectionSort2( T*, int, Comparador<T>* );
+
     ARRAY_UTIL_API bool verificaSeArraysIguais( int* a1, int* a2, int tam ) {
         return verificaSeArraysIguais2( a1, a2, tam );
     }
