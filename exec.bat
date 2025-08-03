@@ -1,10 +1,12 @@
 @echo off
 
-set root_dir=%cd%
-set src_dir=%root_dir%\src
-set debug_dir=%root_dir%\bin\Debug
-set dll_dir=%root_dir%\dll
-set include_dir=%root_dir%\dll\include
+setlocal
+
+set root_dir=%~dp0%
+set src_dir=%root_dir%src
+set debug_dir=%root_dir%bin\Debug
+set dll_dir=%root_dir%dll
+set include_dir=%root_dir%dll\include
 
 set dll_file=Utils.dll
 
@@ -12,10 +14,13 @@ set /a cont=0
 
 if %1==limpar (
     call :limpa
+) else if %1==compilar (
+    call :compila_e_linka
 ) else if %1==copiar (
     call :copia_headers
 ) else if %1==build (
     call :limpa
+    call :compila_e_linka
     call :copia_headers
 ) else if %1==push (
     call :push
@@ -24,9 +29,16 @@ if %1==limpar (
 goto :fim
 
 :limpa
-    del /s /q %include_dir%\*
+    del /s /q %dll_dir%\*
 
     echo Foi efetuada a limpesa
+exit /b 0
+
+:compila_e_linka
+    cd %root_dir%
+    call compile.bat
+
+    echo %dll_file% compilado e linkado com sucesso.
 exit /b 0
 
 :copia_headers
@@ -52,3 +64,5 @@ exit /b 0
 
 :fim
 if ErrorLevel = 1 echo Houve um erro.
+
+endlocal
